@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-checkbox {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #F4A261;
+    border-radius: 6px;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .custom-checkbox:checked {
+    background-color: #F4A261;
+  }
+  
+  .custom-checkbox:checked::after {
+    content: '✓';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+  }
+  
