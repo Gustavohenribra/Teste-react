@@ -1,3 +1,5 @@
+![Prévia do Projeto](public/previa.png)
+
 # Clone o repositório
 ```
 git clone https://github.com/Gustavohenribra/Teste-react.git
